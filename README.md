@@ -15,6 +15,7 @@ A fully connected feedforward neural network (MLP) built with Keras to predict v
 It has three hidden layers (128, 128, and 64 units) with ReLU activations and a linear output layer for regression.
 The model is trained using stochastic gradient descent with the Adam optimizer (an adaptive form of SGD), minimizing mean squared error (MSE) loss over 200 epochs with a batch size of 128.
 # Overfitting and Underfitting
+predicting how popular a song is with spotify dataset
 Overfitting occurs when the model learns noise from the training data, resulting in poor generalization to new data.
 Underfitting happens when the model is too simple to capture the underlying patterns.
 To address these issues, early stopping was applied to halt training once validation loss stopped improving, preventing overfitting and improving model performance.
