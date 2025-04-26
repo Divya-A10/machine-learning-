@@ -19,8 +19,12 @@ predicting how popular a song is with spotify dataset
 Overfitting occurs when the model learns noise from the training data, resulting in poor generalization to new data.
 Underfitting happens when the model is too simple to capture the underlying patterns.
 To address these issues, early stopping was applied to halt training once validation loss stopped improving, preventing overfitting and improving model performance.
+# dropout andf batch normalization
+ improved predictions on the Spotify dataset with dropout to see how batch normalization can help with difficult datasets.
 
-
+# binary classification
+n binary classification, we train neural networks to predict one of two possible outcomes, like "Yes" or "No," which we convert into numeric labels 0 and 1. The process is similar to regression, but we adjust the loss function and output layer for classification tasks. For example, with the Hotel Cancellations dataset, we can train a neural network to predict whether a reservation will be canceled or not.
+ 
  feel free to connect with me regarding the code and the project via comments or my e-mail at 223111a66e6@aiml.sreenidhi.edu.in
 =======
  feel free to connect with me regarding the code and the project via comments or my e-mail at 223111a66e6@aiml.sreenidhi.edu.in
