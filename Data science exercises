@@ -1,0 +1,39 @@
+## Stock Data Extraction and Visualization
+
+This project demonstrates how to extract historical stock and revenue data using yfinance and web scraping techniques, and visualize them using Plotly. It covers stock data for companies like Tesla and GameStop.
+
+Features
+
+Extract historical stock price data using the yfinance library
+Web scrape quarterly revenue data from financial webpages using requests and BeautifulSoup
+Clean and preprocess financial data (removing commas, dollar signs, converting dates)
+Visualize stock prices and revenue over time with interactive Plotly graphs
+Support for multiple stocks: Tesla (TSLA) and GameStop (GME)
+Getting Started
+
+Prerequisites
+Python 3.x
+Packages: pandas, yfinance, requests, beautifulsoup4, plotly
+Install the required libraries with:
+
+pip install pandas yfinance requests beautifulsoup4 plotly
+How to Run
+Use yfinance to download stock data:
+import yfinance as yf
+tesla = yf.Ticker("TSLA")
+tesla_data = tesla.history(period="max")
+tesla_data.reset_index(inplace=True)
+Use requests and BeautifulSoup to scrape quarterly revenue data from webpages.
+Clean and preprocess the revenue data (remove $, ,, convert to datetime).
+Use the provided make_graph function to plot the stock price and revenue data:
+make_graph(tesla_data, tesla_revenue, 'Tesla')
+make_graph(gme_data, gme_revenue, 'GameStop')
+Project Structure
+
+stock_data_extraction.ipynb — Jupyter notebook containing all code for data extraction and visualization
+README.md — This file
+Resources
+
+yfinance Documentation
+BeautifulSoup Documentation
+Plotly Documentation
