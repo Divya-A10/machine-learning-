@@ -25,7 +25,5 @@ To address these issues, early stopping was applied to halt training once valida
 # binary classification
 n binary classification, we train neural networks to predict one of two possible outcomes, like "Yes" or "No," which we convert into numeric labels 0 and 1. The process is similar to regression, but we adjust the loss function and output layer for classification tasks. For example, with the Hotel Cancellations dataset, we can train a neural network to predict whether a reservation will be canceled or not.
  
- feel free to connect with me regarding the code and the project via comments or my e-mail at 223111a66e6@aiml.sreenidhi.edu.in
+ feel free to connect with me regarding the code and the project via comments or my e-mail at divyastansbts13@gmail.com
 =======
- feel free to connect with me regarding the code and the project via comments or my e-mail at 223111a66e6@aiml.sreenidhi.edu.in
->>>>>>> 28a9318e6968341108a78a355871a1bca916466a
